@@ -10,12 +10,11 @@ plugins {
     alias(libs.plugins.animalsniffer)
 }
 
-group = "app.template"
+group = "com.hangys.rumbley"
 
 patches {
     // TODO: Update this section with your project details.
     about {
-        group = "com.hangys.rumbley"
         name = "Hangys Rumble patches"
         description = "Video zoom for the Rumble Android app"
         source = "git@github.com:hangys/rumbley.git"
